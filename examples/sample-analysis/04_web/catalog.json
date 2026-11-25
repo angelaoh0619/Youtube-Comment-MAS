@@ -1,0 +1,731 @@
+{
+  "fingerprint": "db6afaef3a2e0be595947b67cf64b2b0add3c3be17ef682269fb537af944fce9",
+  "video": {
+    "video_id": "BAHKmi4F1L8",
+    "title": "Could this really work in Korea? A complete roundup of the 4.5-day workweek debate [We Rounded It Up] / SBS News",
+    "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8"
+  },
+  "agents": [
+    {
+      "agent_id": "g1",
+      "title": "Take a Whole Weekday Off",
+      "subtitle": "Fewer commutes, more usable time",
+      "stance": "Adopt a four- or four-and-a-half-day week, preferably with a full weekday off. Commenters disagree on phasing, pay, and total hours.",
+      "reasoning": "Commenters say a full day off saves a commute and makes time for family and errands. Some expect cutting unnecessary meetings and reports to help maintain output.",
+      "statistics": {
+        "comment_count": 127,
+        "comment_share": 0.11043478260869566,
+        "like_count": 874,
+        "like_share": 0.049167416741674165,
+        "fits": {
+          "core": 97,
+          "mixed": 30
+        },
+        "needs_review_count": 0
+      },
+      "full_stance": "The position is that a four-day or four-and-a-half-day workweek should be introduced to give people more time outside work. One particularly prominent view is that having an entire weekday off is better than leaving work a little earlier each day. Opinions differ, however, on whether to start with a four-and-a-half-day week and how to handle pay and total weekly hours.",
+      "arguments": [
+        {
+          "text": "Cutting one workday would save commuting time and transportation costs. The benefit of leaving early can be hard to feel when overtime gets in the way, and even a half day still means going in, so taking the whole day off is seen as the better option.",
+          "comment_ids": [
+            "Ugyb2-MCr5m3VuLKuCV4AaABAg",
+            "UgxOu6-Vt8ztdgL6i1J4AaABAg",
+            "UgwcwcSAcIBIH1rDfxZ4AaABAg",
+            "Ugwspyn7PDaqRAmyImV4AaABAg",
+            "UgypMLhuEx9i9a8HAdN4AaABAg.ANM6XmCbBTUAVjcdgf0z1Z",
+            "Ugx1iI3qB3SCQrJz0Lh4AaABAg.ANJmcPxHK57ANLu-4FylK4"
+          ]
+        },
+        {
+          "text": "Having an uninterrupted block of time on a weekday could let people spend time with family, help with household chores, go to medical appointments or run errands at government offices, or work on personal development.",
+          "comment_ids": [
+            "Ugyqu3u3MfRW3kSGDip4AaABAg",
+            "Ugxu5x1KDf0pVxqy3UV4AaABAg",
+            "UgzLUBijNuKlBKsWDgR4AaABAg.ANk_XGYbyweAQROnzGW63N",
+            "UgyoyZVfAI3QHvgpIJJ4AaABAg"
+          ]
+        },
+        {
+          "text": "The hope is that by cutting unnecessary meetings, reporting, and waiting time and focusing on the remaining workdays, people could maintain their output while working fewer hours or become more productive per hour.",
+          "comment_ids": [
+            "Ugyzy5stI88LJ16GaAF4AaABAg",
+            "UgzltTuleUIt06XF5Ox4AaABAg",
+            "UgyrhExfRvhx7ck3bzh4AaABAg",
+            "UgySWJ6Vl0PAQ3NtwuF4AaABAg",
+            "UgxF5KLiYfW61vXBisR4AaABAg",
+            "UgzimDcknejHAwEnY9t4AaABAg.ANKF6PZaMvHANMeG0YtT1E"
+          ]
+        },
+        {
+          "text": "Recalling that the five-day workweek also faced pushback at first but eventually became the norm, some argue that rather than putting the change off over concerns alone, it should be tried and adjusted if problems arise.",
+          "comment_ids": [
+            "Ugyqu3u3MfRW3kSGDip4AaABAg",
+            "UgzWKVxVNR8l0RRS0LB4AaABAg",
+            "Ugz1Vlqxu2umR71ugdF4AaABAg",
+            "Ugz85Ljvu7fm7idbifB4AaABAg",
+            "UgyUolzYP4v3zK55lTx4AaABAg",
+            "Ugyzv2ZzCklEglliWBV4AaABAg"
+          ]
+        },
+        {
+          "text": "There is some hope that more leisure time could lead people to go out and spend more, and that companies might hire additional workers to cover gaps left by the shorter workweek.",
+          "comment_ids": [
+            "UgzdwOlRijqkCzhuQUx4AaABAg",
+            "UgwiAM69gGKGVFAgSEB4AaABAg",
+            "UgyzQQsnHu4NlbNpYLF4AaABAg.ANJnYnIanXsANJsZFFxbxt",
+            "UgzeHFn9-mcXzrKamUl4AaABAg"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "text": "Some would take more time off even if it meant lower pay, while others would accept only a small pay cut. Still others support the change only if their current pay is maintained.",
+          "comment_ids": [
+            "Ugz_CWlfNpQwHJZX16R4AaABAg",
+            "Ugyteft6GHIrBpXJ2Kt4AaABAg.ANRRtB_Ht6ZAVjcu-OhBmX",
+            "Ugzy1Tk6b0H0RnMho7h4AaABAg.ANJhSUWsD4rAVjdBTLPrUm",
+            "Ugy9IDrS8DMfD1wlLPB4AaABAg",
+            "Ugwkrv5583W1nr68OkN4AaABAg"
+          ]
+        },
+        {
+          "text": "Some propose squeezing the workweek into four days, even if that means longer workdays, to get a whole day off. Others propose switching to a four-day week and also cutting the hours worked on those days.",
+          "comment_ids": [
+            "UgyHBGs7um_PMCiqcil4AaABAg",
+            "UgzCeZZpRlASMNCM79N4AaABAg.ANJmO8T1TT2AOTtxpZ7KMo",
+            "Ugz0DqBiAWbWHWtHExN4AaABAg",
+            "UgyG2by8zHCkkZyxgY54AaABAg"
+          ]
+        },
+        {
+          "text": "Some favor moving straight to a four-day workweek, some prefer a four-and-a-half-day week to leaving early every day, and others want to start with a four-and-a-half-day week before moving to four days. There are also proposals to have a four-day workweek every other week or to schedule half days on different days for different employees.",
+          "comment_ids": [
+            "UgwfmnYjPj66nvv9yXx4AaABAg",
+            "Ugx1iI3qB3SCQrJz0Lh4AaABAg.ANJmcPxHK57ANTc93vxFt2",
+            "Ugw7CFld9sxNPN4KOnZ4AaABAg",
+            "Ugy1BI1CHfCvhdElNyZ4AaABAg",
+            "UgxJN1E9wHdveczj8IR4AaABAg"
+          ]
+        },
+        {
+          "text": "Some call for introducing the change across the board rather than starting with public employees alone, while others think businesses will follow if government offices and banks go first. Some say hospital and service workers should also get more time off, while others want government offices and banks exempted for the convenience of the people who use them. Some replies say they would accept the inconvenience even if getting deliveries or shopping at supermarkets became harder.",
+          "comment_ids": [
+            "Ugz_CWlfNpQwHJZX16R4AaABAg",
+            "UgwiJ5V2U8EIwclObWp4AaABAg",
+            "Ugzj7oxtB7_byMTOI694AaABAg",
+            "UgxhaVJ81ZVgEhV7-lR4AaABAg",
+            "UgxFngodkX0DkONVsf14AaABAg",
+            "UgwkmvJMNu3yaIPNpgt4AaABAg.ANJpBtsTld3ANK-3f4eO_A"
+          ]
+        },
+        {
+          "text": "Some argue that the change should be mandated by law to ensure people actually get the day off. Others favor making a shorter workweek the default while giving people who want to work more that option. There is also concern that cutting hours without reducing workloads could make work more intense.",
+          "comment_ids": [
+            "UgwXYytx5kCcc5Ro2qF4AaABAg",
+            "UgwQYP6TgRvoPFKIYDV4AaABAg",
+            "UgxWhNkfDUJNah6qV3h4AaABAg",
+            "UgzWKVxVNR8l0RRS0LB4AaABAg",
+            "UgzcgbPtKE3FElDfSn54AaABAg"
+          ]
+        }
+      ],
+      "limitations": [
+        "Brief comments expressing support or urging a quick rollout do not tell us what work schedule or pay conditions the commenters prefer.",
+        "Recollections of how the five-day workweek became the norm, accounts of working shorter hours, and views about effects on productivity, spending, and employment reflect the experiences and expectations expressed in the comments. This material alone cannot establish the actual effects or whether the change would be feasible in different industries."
+      ],
+      "representative_comments": [
+        {
+          "comment_id": "UgyHBGs7um_PMCiqcil4AaABAg",
+          "text": "I see a lot of people saying it’d be better to get off work earlier than to switch to a 4.5-day week, but I live in a country where 38 hours a week is the norm, and I’ve worked a four-day schedule before. Even though the days were longer, not having to go in at all on one weekday felt like a huge perk.... And I don’t even work in an office; it’s more of a hands-on job, I guess? Before I tried it, I was like, ugh, how am I supposed to work that long in one day? 😭 (9.5 hours, not counting breaks.) But once I actually did it, I liked working my butt off for four days and getting three days off every week better...",
+          "original_text": "4.5일 하는거보다 퇴근시간을 앞당기는게 낫다는분들 많이보이는데, 주 38시간이 기본인 나라에서 살고 4일근무 쉬프트 해본적 있는데 하루당 노동시간이 길어져도 평일중 하루를 아예 출근을 안한다는게 진짜 엄청난 메리트라고 느꼈었어요.... 사무직 아니고 현장직(?)인데도요. 하기 전에는 어휴 하루에 그렇게 길게 어떻게 일해ㅜ (휴게시간 제외 9.5시간) 했는데 막상 하니까 4일 빡세게 하고 주 3일 휴일인게 나았음...",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgyHBGs7um_PMCiqcil4AaABAg"
+        },
+        {
+          "comment_id": "UgxOu6-Vt8ztdgL6i1J4AaABAg",
+          "text": "If we’re going to do a 4.5-day week, let’s just do four days.\nEven with a five-day week, overtime is pretty much a given.\nWith a 4.5-day week, if you work overtime on that last half day, it’s basically just a five-day week.",
+          "original_text": "4.5일제 할바엔 4일제 하자\n5일일해도 야근은 거의 필순데\n4.5일제면 4.5일째되는날 야근하면 그냥 5일제임",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgxOu6-Vt8ztdgL6i1J4AaABAg"
+        },
+        {
+          "comment_id": "UgyoyZVfAI3QHvgpIJJ4AaABAg",
+          "text": "I’m all for a 4–4.5-day week! I hope it happens soon 😭 I want to work on myself after work and build some kind of safety net for my future. I hate feeling like I’m grinding away my whole life for the company... I feel like people like me need the government to force work to shut down for the day just so we can have a life.",
+          "original_text": "4-4.5 찬성! 빨리 됐으면ㅜㅜ퇴근후 자기개발해서 인생보험 만들어두고 싶다. 너무 회사에 내 인생 갈아 던지는거 같아 싫음..나같은 사람은 국가에서 강제로 셧다운을 도와줘야 살거같다",
+          "like_count": 1,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgyoyZVfAI3QHvgpIJJ4AaABAg"
+        }
+      ]
+    },
+    {
+      "agent_id": "g2",
+      "title": "Shorten Each Workday Instead",
+      "subtitle": "More time every weekday",
+      "stance": "Keep five workdays but shorten them; some commenters prioritize flexible start and finish times even if total hours stay the same.",
+      "reasoning": "Commenters say earlier finishes help with childcare and family dinners while preserving daily workflow. They argue that a half-day Friday gains little if other workdays get longer.",
+      "statistics": {
+        "comment_count": 161,
+        "comment_share": 0.14,
+        "like_count": 10747,
+        "like_share": 0.6045792079207921,
+        "fits": {
+          "core": 130,
+          "mixed": 31
+        },
+        "needs_review_count": 0
+      },
+      "full_stance": "The prevailing view is that rather than getting more time off through a four-day or four-and-a-half-day workweek, it would be better to shorten the workday and free up time every weekday, even if the five-day week stays in place. Some also say it is more important to let people adjust their own start and finish times than to have everyone leave at the same time.",
+      "arguments": [
+        {
+          "text": "Leaving work an hour or two earlier every day would give people time to have dinner with their families, pick up their children, exercise, or read. The idea is that what would really change daily life is having time to use every weekday rather than getting it all on one particular day.",
+          "comment_ids": [
+            "Ugxgj_xdPItRcuq4dTp4AaABAg",
+            "UgwwXFa8NC05fQ7ILch4AaABAg",
+            "UgwssRt5D7jqyPDTFQV4AaABAg",
+            "Ugx1iI3qB3SCQrJz0Lh4AaABAg",
+            "UgwvWPpGgwHzZTCi9Dt4AaABAg"
+          ]
+        },
+        {
+          "text": "Critics say that working longer Monday through Thursday to make Friday a half day does not reduce total working hours and only cuts into free time on the other weekdays. What matters is whether people actually work fewer hours, not what the policy is called.",
+          "comment_ids": [
+            "UgwlIeOEq75_L4GfTmx4AaABAg",
+            "Ugx5xPgypkgTGXgu7MV4AaABAg",
+            "UgxoKWXHVSaZt3geDjN4AaABAg",
+            "UgzV7YFZlIODB83PFvx4AaABAg"
+          ]
+        },
+        {
+          "text": "Some think that if there are tasks to handle every weekday, keeping the same number of workdays makes it easier to keep work flowing. One commenter recounted how a team took annual leave on top of a four-and-a-half-day schedule, bringing the next team's work to a halt. Others expect people to concentrate better if they spend less time staying late with nothing to do.",
+          "comment_ids": [
+            "UgyEYMp6C6G1l2qJPh94AaABAg",
+            "UgzbZGZmYD0cAKQdOil4AaABAg",
+            "UgyO3bzEp8TfFtwdl5N4AaABAg",
+            "UgztO17P1l4P18SR2Gt4AaABAg",
+            "Ugy_hlvZbs9aa6rvwX94AaABAg.ANJvxS_9iiNANnM1jiWItb"
+          ]
+        },
+        {
+          "text": "Even without cutting working hours, flexible start and finish times would let people plan their days around errands or caregiving. One commenter found that starting and finishing early helped balance morning and afternoon work. Another suggested that parents could stagger their start times so one could handle school drop-off and the other could take care of the children in the afternoon.",
+          "comment_ids": [
+            "UgzNvi6XBw-BTcIP-094AaABAg",
+            "Ugy_hlvZbs9aa6rvwX94AaABAg",
+            "Ugx1iI3qB3SCQrJz0Lh4AaABAg.ANJmcPxHK57ANOShOcIni2"
+          ]
+        },
+        {
+          "text": "Some suggest giving people more annual leave and letting them take it without feeling judged, rather than changing everyone's weekly schedule. Another suggestion is that people whose jobs can be done from home could get back the time they spend commuting, even if they still work the same number of days.",
+          "comment_ids": [
+            "UgzZCUwmtQ7M82tn8Yx4AaABAg",
+            "UgxqCh05oWgqPpO0gIN4AaABAg",
+            "UgzVmrMYqsF8NUHlofp4AaABAg",
+            "UgyhNAQKI_21CSXGtTh4AaABAg",
+            "UgydOSQDDUDtdrQsvzh4AaABAg"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "text": "Some say working from 9 a.m. to 5 p.m. would be enough, while others say they would not feel the difference unless they could leave around 4 p.m. Some replies favor working from 10 a.m. to 5 p.m., but others scoff at cutting hours by that much and suggest starting at 8 a.m. and taking a short lunch break instead.",
+          "comment_ids": [
+            "UgzCeZZpRlASMNCM79N4AaABAg.ANJmO8T1TT2APPwRMIlLjb",
+            "Ugx1iI3qB3SCQrJz0Lh4AaABAg.ANJmcPxHK57ANRYQLnp-Ey",
+            "Ugz0csDHPfpPvgtMolx4AaABAg.ANJl58ieAoaAPFNNdaQ0_L",
+            "Ugz0csDHPfpPvgtMolx4AaABAg.ANJl58ieAoaANP0U70iapF"
+          ]
+        },
+        {
+          "text": "Some propose shortening or skipping lunch and other breaks to get home earlier, while others propose counting lunch as paid work time. Some would actually rather extend lunch to two hours and still leave at 5 p.m.",
+          "comment_ids": [
+            "Ugy01kpoQhf7OmaFLsF4AaABAg",
+            "UgzrKN-4Fjt8SO2kwkB4AaABAg",
+            "UgzkfFY5GrXHt6Xhaqd4AaABAg",
+            "Ugx1e7W-SUKTS8OoKKJ4AaABAg"
+          ]
+        },
+        {
+          "text": "Not everyone opposes a four-and-a-half-day workweek. Some would prefer shorter days as long as there is no overtime but would still welcome a four-and-a-half-day week. One commenter liked how leaving early on Friday made the weekend feel longer but found that it interrupted the flow of work. Others say that if their jobs make it hard to leave early every day, they would take a pay cut just to have Friday afternoons off.",
+          "comment_ids": [
+            "UgwwXFa8NC05fQ7ILch4AaABAg",
+            "UgwmJvNlXDNCeZ9CIgd4AaABAg",
+            "Ugyteft6GHIrBpXJ2Kt4AaABAg"
+          ]
+        },
+        {
+          "text": "Views also differ on how these arrangements should be put into practice. Some suggest scheduling around each industry's service hours or staggering days off to avoid gaps in weekday coverage. Others say remote work should be introduced only once network security is assured. There are also calls to stop work-related messages and calls after hours, in addition to letting people leave earlier.",
+          "comment_ids": [
+            "UgwToE7iOpBuvSGCAgN4AaABAg",
+            "Ugx1iI3qB3SCQrJz0Lh4AaABAg.ANJmcPxHK57ANKQqGN2vx9",
+            "UgydOSQDDUDtdrQsvzh4AaABAg",
+            "UgxT48QZhanXN0Pe6EV4AaABAg"
+          ]
+        },
+        {
+          "text": "Those who say pay cuts should be prevented worry that people could end up taking on side jobs to make up for lost income. Others say they would choose more time even at lower pay if they could work remotely, hold another job, and work hours that match their actual workload.",
+          "comment_ids": [
+            "Ugys0TrsHbjjnratSBd4AaABAg",
+            "UgyR-PQgfkPyCDAxUnp4AaABAg",
+            "UgyhNAQKI_21CSXGtTh4AaABAg"
+          ]
+        }
+      ],
+      "limitations": [
+        "Comments that simply give a preferred finish time or express agreement do not reveal the reasons behind those views or what conditions the commenters would set regarding pay or overtime.",
+        "Work delays, better concentration, and lighter caregiving burdens are things commenters either experienced or expect. These comments alone cannot establish how the policy would affect different industries or whether it would be feasible."
+      ],
+      "representative_comments": [
+        {
+          "comment_id": "UgwuaeeQmwk6BsmEEDd4AaABAg",
+          "text": "It's not about whether we work four or five days a week. Adjusting working hours matters more.",
+          "original_text": "주4일 주5일이 중요한게아니라 근무시간 조정이 더 중요함",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgwuaeeQmwk6BsmEEDd4AaABAg"
+        },
+        {
+          "comment_id": "Ugz3L565Eanpcu3bXZR4AaABAg",
+          "text": "Shorter hours would be better than a 4.5-day workweek. They should switch us from 9–6 or 9–7 to 9–5.",
+          "original_text": "시간을 줄이는게 나음 4.5일제보다\n9-6 9-7 에서 9-5로 해주야지",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=Ugz3L565Eanpcu3bXZR4AaABAg"
+        },
+        {
+          "comment_id": "UgzNvi6XBw-BTcIP-094AaABAg",
+          "text": "I used to work 9 to 6 every day, then switched to a place where I can pick my start time, and it's honestly so much nicer. I work 7 to 4 now, and my hours are nicely balanced between the morning and afternoon. I think it'd be better to get more workplaces to offer flexible start times before moving to a 4.5-day workweek.",
+          "original_text": "맨날 9 to 6하다가 자율출근하는 곳으로 이직했는데 이게 진짜 쾌적함 7 to 4 하고있는데 오전하고 오후 업무시간도 밸런스가 좋고 4.5하기전에 자율출근부터 더 시행할수 있도록 하는게 나을거같은데",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgzNvi6XBw-BTcIP-094AaABAg"
+        }
+      ]
+    },
+    {
+      "agent_id": "g3",
+      "title": "Fix Unpaid Overtime First",
+      "subtitle": "Enforce existing hours and leave",
+      "stance": "Before shortening the week, reform bundled overtime pay and enforce five-day schedules, on-time finishes, holidays, and annual leave. Views on shortening differ.",
+      "reasoning": "Commenters argue that overtime pay should reflect actual hours and warn that without workload or staffing changes, shorter schedules could push work into evenings and weekends.",
+      "statistics": {
+        "comment_count": 136,
+        "comment_share": 0.11826086956521739,
+        "like_count": 2962,
+        "like_share": 0.16662916291629162,
+        "fits": {
+          "core": 113,
+          "mixed": 23
+        },
+        "needs_review_count": 0
+      },
+      "full_stance": "The position is that before introducing a four-day or four-and-a-half-day workweek, the all-inclusive wage system should be reformed so that people are paid for the overtime and holiday work they actually do, and that a five-day workweek, leaving on time, days off, and annual leave should be guaranteed in practice. Opinions differ on shortening the workweek itself, but there is a shared concern that if unpaid overtime and weekend work continue as they are, only the schedule on paper will change.",
+      "arguments": [
+        {
+          "text": "The all-inclusive wage system is seen as an excuse for not properly paying people for the overtime and holiday work they actually do. The argument is that companies should do more than just record when people clock in and out: they should pay for the overtime actually worked. Only then will they have an incentive to cut back on overtime.",
+          "comment_ids": [
+            "Ugwe3AooaKkL40iLbYJ4AaABAg",
+            "Ugwaq3yrf41rhbUCX8Z4AaABAg",
+            "UgzBfTJ8aY4JsIpDUcR4AaABAg",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg.ANJtobg1J9WANKCoZBSRex",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg.ANJtobg1J9WANRrDVPnOlK"
+          ]
+        },
+        {
+          "text": "Citing experiences of six-day workweeks, having to come in on weekends and holidays, and employers ignoring both the 52-hour weekly limit and scheduled end times, some say the existing rules should be enforced before new ones are made. Some also point to cases where a job is advertised as five days a week but the actual contract requires six, leaving workers to use annual leave just to get a day off. They call for guarantees of days off and annual leave, as well as investigations into actual working conditions and enforcement of the rules.",
+          "comment_ids": [
+            "UgzOZ8w67JiMReC_iyF4AaABAg",
+            "UgzgWSKF4ofiy1pElCZ4AaABAg",
+            "UgwmIYNeRWS9psLHw1l4AaABAg",
+            "Ugybp4Jy5-LiM8rSBAB4AaABAg",
+            "Ugz0Snz7S2nAtmN3J3d4AaABAg",
+            "Ugxp48SM1-KLKJ3wSQx4AaABAg",
+            "Ugwr427iQ0sAn80-vR14AaABAg"
+          ]
+        },
+        {
+          "text": "Some expect that if the number of workdays is cut without changing workloads or staffing, the leftover work will spill over into weekday overtime, extra weekend shifts, or work done from home after hours. They suggest adjusting schedules and redistributing work or hiring more staff to actually reduce working hours.",
+          "comment_ids": [
+            "UgyX34HDtPpW5kTZHJx4AaABAg",
+            "Ugzr7QCwa92Oa4bSg2J4AaABAg",
+            "Ugw0nAsyuqXFbHh6yIt4AaABAg",
+            "Ugy0X_lUKWLzW-yGG1F4AaABAg",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg.ANJtobg1J9WASOIqgNEYR8",
+            "Ugws6LXRoodPxIchKpt4AaABAg.ANJiyrAaYsKANObvb-SJmv"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "text": "Some call for abolishing or banning the all-inclusive wage system outright, while others propose excluding office jobs and clearly specifying which industries and roles can still use it. Some also distinguish between jobs where overtime pay is bundled into wages but workers are guaranteed to leave on time and jobs where workers are made to work unlimited overtime.",
+          "comment_ids": [
+            "UgxI9fBLRM_UMpOQKt54AaABAg",
+            "Ugy6cGka9vlONK0a2Sp4AaABAg",
+            "Ugz7yn9JEia6LYa6Fgl4AaABAg.ANK1RSdmaGaANKwOWchUTW",
+            "UgypByeuPgZU1hofHyR4AaABAg"
+          ]
+        },
+        {
+          "text": "Some want overtime banned altogether, while others say work could just move to people's homes or cafés even if the office closes, so it would be better to pay separately for overtime that is hard to avoid. Some commenters say they would rather be paid separately for the overtime they actually work, even if it means a lower base monthly salary.",
+          "comment_ids": [
+            "Ugxt3rZmfYYUvjdYTOB4AaABAg",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg.ANJtobg1J9WANRrDVPnOlK",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg.ANJtobg1J9WANRrL2YovPc",
+            "Ugx9uGC9LwvWQwIZp-V4AaABAg.ANJtobg1J9WANUBcvzCuqD"
+          ]
+        },
+        {
+          "text": "Some favor improving basic working conditions before moving to a four-day workweek or letting people leave early on Fridays, while others support further cuts in working hours as long as pay and productivity are maintained. Still others favor abolishing the all-inclusive wage system, seeing what happens, and avoiding a blanket rollout. Some say they would rather leave at the scheduled time and get their evenings back every day than have more days off.",
+          "comment_ids": [
+            "Ugy6r8MuWODAW-RjS4d4AaABAg",
+            "Ugw1C9IPIfxDV48rF9p4AaABAg",
+            "UgzaW_RnbiMZMQVGsXR4AaABAg",
+            "UgxxSNFtdGgwqVArd9h4AaABAg",
+            "Ugxtims5CJg_NeLU3WN4AaABAg"
+          ]
+        },
+        {
+          "text": "Some commenters quip that only a few companies will reap the benefits while people already working six days a week will carry on as before. Others say that even if shorter hours are up for discussion, the first questions should be how to protect hourly workers' incomes and whether demanding the same output in less time on factory floors would make the work more intense and increase the risk of accidents.",
+          "comment_ids": [
+            "UgzXHu5kn5iT8TffCgV4AaABAg",
+            "Ugz4m8LDYaG_GvCYWc94AaABAg",
+            "UgznFQoAvjKOQtZdSKl4AaABAg",
+            "UgyVBuT5oSwYEZvAAB54AaABAg"
+          ]
+        }
+      ],
+      "limitations": [
+        "Some comments simply call for abolishing the all-inclusive wage system or guaranteeing a five-day workweek, so it is unclear whether those commenters would support a four-and-a-half-day workweek once those measures were in place.",
+        "The long working hours, unpaid extra work, and limits on taking leave are experiences and claims shared in the comments. This material alone cannot establish what conditions are like across entire industries or what effects reforms would have on overtime, hiring, or safety."
+      ],
+      "representative_comments": [
+        {
+          "comment_id": "UgwiZ6MluUtZinox7td4AaABAg",
+          "text": "We should abolish the all-inclusive wage system before moving to a four-day workweek.",
+          "original_text": "주 4일보다 포괄 임금제를 먼저 없애야 합니다.",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgwiZ6MluUtZinox7td4AaABAg"
+        },
+        {
+          "comment_id": "UgyVBuT5oSwYEZvAAB54AaABAg",
+          "text": "First, it’s not an issue for salaried workers, but what about hourly workers? Almost everyone working in factories run by small and midsize businesses is paid by the hour, and they’re already scraping by on what they make each month. If you cut the number of days they work, how are you going to make up for the pay they lose?\n\nSecond, whether it’s 4.5 days, 4 days, or hell, even 3 days, it’s pointless as long as the all-inclusive wage system is in place. Fix that first.\n\nThird, the 52-hour workweek isn’t even being properly enforced yet, and you want to introduce a 4.5-day workweek? Enforce the 52-hour workweek properly first.\n\nFourth, for people working on the shop floor, especially in factories, do you really think factories will cut production just because working hours are shorter? No. Absolutely not. Never. They’ll raise the hourly production quota to make up for it. If workers have to rush to meet higher quotas in less time, workplace accidents could become more frequent, and the work will get more intense too. How are you going to take responsibility for that?\n\nThis isn’t the kind of bullshit we heard about how a five-day workweek would ruin the country. I’m being realistic here. Outside of big corporations and state-owned enterprises, most businesses in this country are small or midsize, and they don’t even have the basics in place yet.\n\nWhether it’s a 4.5-day or a 4-day workweek isn’t the point. Get the groundwork in place first, then talk about it. Isn’t it too early to just barrel ahead and implement it? Do things in order. Trying to cram it all in at once seems like too much.",
+          "original_text": "첫째, 월급제 근로자라면 상관없지만 시급제 근로자라면? 중소기업 공장의 거의 대부분은 시급제 근로자들이고 이들의 월급은 안 그래도 팍팍한 수준이다 근로일수를 줄여버리면 그들의 줄어드는 월급은 어떻게 보존해줄 건가?\n둘째, 4.5일이든 4일이든 뭐 3일이든 포괄임금제가 적용되는 이상 저건 아무런 효용가치가 없다 포괄임금제부터 손봐라\n셋째, 아직 주 52시간조차 제대로 지켜지지 않는 마당에 주 4.5일 적용이라니? 52시간부터 먼저 제대로 적용해라\n넷째, 현장직, 그러니까 대표적으로 공장에서 저게 적용되면 근무시간이 줄어든다고 해서 공장에서 생산수량을 줄일 것 같나? 노. 절대. 네버. 시간당 생산 할당 수량을 그만큼 올릴 거다\n줄어드는 작업시간만큼 할당 수량이 올라가서 빨리빨리 생산을 하려다보면 노동자들의 안전사고가 더 빈번하게 나기도 할 테고 근무 강도 역시 올라가게 된다 그건 어떻게 책임질 건가?\n\n주5일제가 되면 나라 망한다던 그딴 헛소리가 아니라 진짜 현실적으로 하는 말인데 대기업과 공기업을 제외하고 우리 나라 기업의 대다수를 차지하는 중소기업들은 지금 제반사항조차도 마련되지 않은 상태인데\n주 4.5일이든 4일이든 그건 상관없고 그걸 시행하기 위한 제반사항을 먼저 다듬어두고 논의를 해야지 무턱대고 저걸 시행하겠다는건 너무 이르지 않나? 순서대로 해야지 저렇게 한번에 우다다는 너무 무리인 것 같은데",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgyVBuT5oSwYEZvAAB54AaABAg"
+        },
+        {
+          "comment_id": "UgwI2QAUc3V98vb1seF4AaABAg",
+          "text": "It’s supposed to be a five-day workweek, so please make sure it applies to everyone in the country.\nGet rid of the all-inclusive wage system\nand pay people overtime when they work extra hours~",
+          "original_text": "5일제라고   전국민 해당되게 해주세요.\n포괄임금제  없애고\n일하면 수당지급하고 ~",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgwI2QAUc3V98vb1seF4AaABAg"
+        }
+      ]
+    },
+    {
+      "agent_id": "g4",
+      "title": "Keep Services Open",
+      "subtitle": "Coverage plans tailored to each sector",
+      "stance": "Views on shorter weeks differ, but commenters want sector-specific coverage plans that distinguish employees’ days off from operating days.",
+      "reasoning": "Commenters warn that shared days off could close banks, clinics, and public offices when people need them. Staggered shifts may help, but staffing remains a concern.",
+      "statistics": {
+        "comment_count": 206,
+        "comment_share": 0.1791304347826087,
+        "like_count": 1198,
+        "like_share": 0.06739423942394239,
+        "fits": {
+          "core": 169,
+          "mixed": 37
+        },
+        "needs_review_count": 0
+      },
+      "full_stance": "The idea is that rather than putting every workplace on the same four-day or four-and-a-half-day schedule, employees’ workdays should be kept separate from the days their workplaces are open, and each industry should first work out how to prevent gaps in service. Opinions are divided on shortening the workweek itself, but one point stands out: if banks, hospitals, and government offices all close on the same day, the benefit of being able to run errands more easily on a weekday may disappear.",
+      "arguments": [
+        {
+          "text": "If people have the same days off as banks, hospitals, and government offices, they’ll still have to use a half-day or a day of annual leave to run errands. The point is that a convenience people enjoy when only some companies shorten their workweeks can’t automatically be counted as a benefit of a nationwide rollout. It’s also unfair to assume that service workers alone will keep working their usual schedules.",
+          "comment_ids": [
+            "UgxaR01MEvA7eqAKKnt4AaABAg",
+            "UgxqSZm58sQm1pjNClh4AaABAg",
+            "UgxmA7qiYKgfwE-uVhZ4AaABAg",
+            "UgxC32zCBcjEJdfu84N4AaABAg",
+            "UgyAeMH6fPXKS_n-Hsp4AaABAg"
+          ]
+        },
+        {
+          "text": "Some worry that if workplaces are actually open fewer days, the effects could go beyond personal errands: gaps in care, delivery delays, longer waits for consultations, and limited access to transportation and logistics services. Some comments exaggerate what it would be like if everything shut down at once, poking fun at people who expect services to run as usual even on their own days off.",
+          "comment_ids": [
+            "UgzRTPXQ0FYaHtP436B4AaABAg.ANR51sltz4_ANR5QN-qZX0",
+            "UgwD-Ai3IrTDOntS0rF4AaABAg",
+            "Ugx_Rd6C1mWN7-vmbat4AaABAg",
+            "Ugx0P0413QvAMOSokBt4AaABAg.ANJjTRwJwaCANJmCrW5v5z",
+            "Ugyzv2ZzCklEglliWBV4AaABAg.ANJiKBysCMPANJlvC6Vcxm"
+          ]
+        },
+        {
+          "text": "One counterargument is that employees could take different days or half-days off and work in rotation, shortening each person’s workweek while keeping the workplace open on weekdays. Others respond that if staffing stays the same and work piles up on certain days, the employees on duty could face heavier workloads and customers could have longer waits.",
+          "comment_ids": [
+            "UgzLZ5PdaVeQq6T5Ogh4AaABAg.ANkc2cztM_NAQROOWkGF6z",
+            "Ugxc4tZMY0oqTu01RhB4AaABAg.ANNGnWK2LoAANNPglW2PaI",
+            "UgzGju9cvpt3WsgvumV4AaABAg",
+            "UgxqSZm58sQm1pjNClh4AaABAg",
+            "UgzAJ6x8zXtdrLhRwKJ4AaABAg.ANK1mNlgAXMANL3vmibQAM"
+          ]
+        },
+        {
+          "text": "Some argue that workplaces where staff need to be on site or work in shifts, such as those in manufacturing, construction, and healthcare, can’t easily adopt the same schedules as office workers. Reorganizing shifts and hiring more staff are suggested as alternatives, but labor costs and difficulty finding workers could make these changes hard to carry out, especially for small businesses.",
+          "comment_ids": [
+            "Ugzbk65cWO0PO40f4454AaABAg",
+            "Ugxhzk6bihyI2KIpNRx4AaABAg",
+            "UgxREyRdQEnU2ORKvIl4AaABAg",
+            "UgxO3p4uQhp-4Con5nt4AaABAg",
+            "Ugw6BrSLRFxgj-YlLQd4AaABAg",
+            "UgwkmvJMNu3yaIPNpgt4AaABAg.ANJpBtsTld3ANKnFj8jAs6"
+          ]
+        },
+        {
+          "text": "Rather than rolling it out nationwide all at once, some suggest letting workplaces that can manage it adopt it voluntarily or piloting it at a few sites before deciding whether to expand it. Other proposals include offering incentives to participating companies or letting industries that would struggle to make the change keep their current schedules.",
+          "comment_ids": [
+            "Ugz6fECYHG97StTj5C94AaABAg",
+            "UgzRtRqcHptTCyfG_D54AaABAg",
+            "Ugxxbbzoj3_nj6apJ3N4AaABAg.ANKoBYx4Lv_ANM3r9fSBPh",
+            "UgxxaqQEwZklwX7ULlx4AaABAg",
+            "Ugx9tZVi8lR_ryY-nGp4AaABAg.ANJsXAue-RkANNJY0igvlz"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "text": "Some people don’t oppose a shorter workweek and welcome having more time for themselves and their families. They just don’t buy the argument that it would make it easier to visit banks or government offices on weekdays. Other commenters oppose the policy because it could mean shorter opening hours.",
+          "comment_ids": [
+            "UgwjC-tFTcm8fiajd2l4AaABAg",
+            "UgxqSZm58sQm1pjNClh4AaABAg",
+            "UgwPlAy1E57Xm4ju1Tp4AaABAg"
+          ]
+        },
+        {
+          "text": "Opinions are divided on how to handle the public sector. Some suggest keeping government offices on a five-day week; others suggest starting with public institutions and expanding to the private sector. Another suggestion is to stagger days off so that public-sector employees and workers elsewhere have different days off.",
+          "comment_ids": [
+            "UgyQ3es0LiW8NNG2IFR4AaABAg",
+            "UgzUiV1g3tLcwogKnB54AaABAg",
+            "Ugzg6jiTP9L4-iyF-tx4AaABAg"
+          ]
+        },
+        {
+          "text": "While some say to start wherever it’s feasible, others argue it would be unfair if only some office workers benefited or if shift and weekend workers were left working the same schedules as before. Suggestions include laying out a concrete plan for shift workers first or giving people who work Fridays extra pay and a different day off.",
+          "comment_ids": [
+            "UgzyTelrqB8j3Gs2QCJ4AaABAg",
+            "UgygenPJUNxHUoFW9CZ4AaABAg",
+            "UgylChtgVjQELbggyCd4AaABAg",
+            "UgwbqaL1wW85qR_ZLP14AaABAg",
+            "UgwbqaL1wW85qR_ZLP14AaABAg.ANJm_PW4lwyANJs2QPXI3V"
+          ]
+        },
+        {
+          "text": "In response to concerns that parents would have nowhere to leave their children if schools and childcare facilities closed, one reply says there would be no childcare gap if parents had those same days off.",
+          "comment_ids": [
+            "UgwD-Ai3IrTDOntS0rF4AaABAg",
+            "UgwD-Ai3IrTDOntS0rF4AaABAg.ANMbVet5Mv7ANMfrOQKLs9",
+            "UgwD-Ai3IrTDOntS0rF4AaABAg.ANMbVet5Mv7ANOhIbDQwn2"
+          ]
+        },
+        {
+          "text": "One counterargument is that neighborhood clinics are independent businesses whose income depends on how much they’re open, so they won’t cut the number of days they see patients. Others point out that even if the doctor who owns the clinic keeps it open, the work schedules of the clinic’s employees are a separate question.",
+          "comment_ids": [
+            "UgyejM-QkaCECtDEz3R4AaABAg",
+            "UgyejM-QkaCECtDEz3R4AaABAg.ANK8zrK0VRnANLuezpxaLF",
+            "UgyejM-QkaCECtDEz3R4AaABAg.ANK8zrK0VRnANOhfzPPky0"
+          ]
+        }
+      ],
+      "limitations": [
+        "The comments discuss both four-day and four-and-a-half-day workweeks, and some don’t distinguish between everyone taking the same day off and staggering days off. The comments alone therefore don’t establish which proposal each concern applies to.",
+        "Many comments are brief rhetorical questions or sarcastic remarks, so criticism of the claim that services would be easier to access can’t be taken as opposition to the policy as a whole.",
+        "Service delays, the possibility of additional hiring, and whether some industries would be exempt are predictions or claims raised in the comments, not evidence of what actually happened after implementation or of which workplaces the policy has been confirmed to cover."
+      ],
+      "representative_comments": [
+        {
+          "comment_id": "UgwjC-tFTcm8fiajd2l4AaABAg",
+          "text": "What's even funnier is that people here assume government offices, banks, and hospitals won't take the same days off as them. Sure, let's say private clinics are independent businesses and can set their own hours, like taking Sundays and Mondays off. But do you really think government offices and banks will change which days they're closed? Hahaha.\nWhat kind of mindset is it to want Friday, Saturday, and Sunday off for yourself but expect everyone else to take Saturday, Sunday, and Monday off? Even places like testing labs at university hospitals will take the same days off.\nInpatient wards will still run, sure, but the rest of the regular staff will get an extra weekend day. That means longer waits at hospitals. Government offices will make the switch first. Civil servants are always the first to try out this kind of thing. Taking turns working 4.5 days doesn't make sense either. The workload is the same every day, but then one person ends up doing two or three times the work...?? And some people would get Friday, Saturday, and Sunday off, while others would have to take Wednesday, Saturday, and Sunday off. Who's going to go for that? I'm not against the 4.5-day workweek itself. I just think it's funny that people think it'll let them take care of the bank and government office errands they've been putting off.",
+          "original_text": "여기서 관공서랑 은행, 병원이 자기들이랑 같은날 안쉴거라고 가정하는게 더 웃기다 그래 개인 병원이야 자영업이니까 일,월 이런식으로 자유롭게 운영한다 치자 관공서 은행이 쉬는날을 바꿀거같음??ㅎㅎㅎㅎ \n자기들은 금토일 쉬길 원하면서 다른 곳은 토일월 이렇게 쉬길 원하는 건 무슨 심보.. 하다못해 대학병원 검사실같은 곳도 다 똑같이 쉴거임 \n입원 병동이야 돌아가도 그 외 나머지 상근직군들은 주말하루가 더 생기는 것. 병원 대기시간 더 길어지는거임. 관공서는 제일 빨리 바뀔거임. 원래 이런 실험은 공무원들부터 제일먼저함. 돌아가면서 4.5일 일하는 것도 말이 안됨. 업무는 매일매일이 똑같은데  한명이 두,세배 일하게 되는데..?? 그리고 누구는 금토일 쉬고 누구는 수토일 쉬어야 하는데 그걸 누가하겠어..  4.5일 자체를 반대하는건 아님. 다만 4.5일 함으로써 미뤄뒀던 은행,관공서 업무를 본다는게 웃겨서 그럼",
+          "like_count": 35,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgwjC-tFTcm8fiajd2l4AaABAg"
+        },
+        {
+          "comment_id": "UgxqSZm58sQm1pjNClh4AaABAg",
+          "text": "12:40 If a four-day workweek is rolled out in full, wouldn't government offices be the first to adopt it? And banks too... Having more time for yourself and your family is great, but I think the reason people say it makes it easier to get things done at government offices and banks is that only some companies have adopted it so far. That might not be a benefit we'd get if it were implemented nationwide... You could set it up so that not everyone gets Friday, Saturday, and Sunday off: some people could have those days off, while others could have Saturday, Sunday, and Monday off, and so on. But unless days off are spread evenly throughout the week, staff at government offices and banks would likely have to work harder on days when fewer people are on duty, and people using those services would have to wait longer. It seems like this needs a lot of careful discussion on several fronts.",
+          "original_text": "12:40 주4일제를 전격시행하게 되면 관공서부터 주4일이 도입되지 않을까요? 그리고 은행도요...개인시간과 가족과 함께 할 수 있는 시간이 많아지는 건 좋지만, 현재 일부 기업에서 시행되고 있기에 관공서나 은행 업무 보는 것이 좋다는 얘기가 나올 수 있는 것 같습니다. 이건 전국적으로 시행될 시에는 누릴 수 없는 장점일지도요...이게 모두 다 금토일 쉬는 게 아니라 금토일 쉬는 사람, 토일월 쉬는 사람 등 틀이 마련될 수 있지만, 이게 일주일내내 균등하게 배분되지 않는 이상 근무자가 줄어든 날짜에 관공서, 은행의 노동강도가  높아지거 사용자 대기시간이 길어지는 불편함이 따를 것 같습니다. 여러모로 깊은 논의가 필요할 듯 합니다",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgxqSZm58sQm1pjNClh4AaABAg"
+        },
+        {
+          "comment_id": "Ugxc4tZMY0oqTu01RhB4AaABAg.ANNGnWK2LoAANNPglW2PaI",
+          "text": "Just stagger people's days off. Local government offices and banks stay open Monday through Friday, and you assign some people Monday off, others Tuesday off, others Wednesday off, and so on.",
+          "original_text": "교대근무로 돌리면 됨. 월요일부터 금요일까지 동사무소 은행은 돌아가고 사람만 월요일 쉬는사람 화요일 쉬는사람 수요일 쉬는사람 이렇게 배정하는거",
+          "like_count": 0,
+          "is_reply": true,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=Ugxc4tZMY0oqTu01RhB4AaABAg.ANNGnWK2LoAANNPglW2PaI"
+        }
+      ]
+    },
+    {
+      "agent_id": "g5",
+      "title": "Test the Economics First",
+      "subtitle": "Pay, jobs, and output",
+      "stance": "Defer or reject a four-and-a-half-day week unless output, jobs, and pay are addressed. Some accept pay adjustments; others reject income cuts.",
+      "reasoning": "Commenters say productivity gains aren’t automatic. They warn that maintaining salaries could raise costs and curb hiring, while fewer paid hours could hurt hourly workers.",
+      "statistics": {
+        "comment_count": 233,
+        "comment_share": 0.2026086956521739,
+        "like_count": 1029,
+        "like_share": 0.05788703870387039,
+        "fits": {
+          "core": 204,
+          "mixed": 29
+        },
+        "needs_review_count": 0
+      },
+      "full_stance": "The prevailing position is to oppose a 4.5-day workweek or hold off on introducing it. Shorter hours do not automatically raise hourly productivity, so the view is that the first questions should be whether current output can be maintained, who would bear the cost if wages stay the same, and how workers would make ends meet if wages fall. Those calling for wage adjustments, however, propose a different solution from those who would rather keep current hours than take a pay cut.",
+      "arguments": [
+        {
+          "text": "The argument is that shorter working hours are a result of higher productivity, not a guarantee that the same output can be achieved in less time. In manufacturing in particular, where output is tied to how long equipment runs, it could become harder to meet production targets and delivery deadlines, weakening export competitiveness. On this view, improving efficiency or changing the structure of industry should come first.",
+          "comment_ids": [
+            "UgxQx9A3mMsbV7Pp-uJ4AaABAg",
+            "UgyWoPM8lvDMerNdLNN4AaABAg",
+            "Ugz84Y_cm3JnAmNV01B4AaABAg",
+            "UgzD9KQARajrokYMr914AaABAg",
+            "UgyFKVv0GbIRDn6ri0Z4AaABAg",
+            "Ugy_ZzVs7jFiYgGngCt4AaABAg.ANJxGK2Bww_ANKQd2LIb3b"
+          ]
+        },
+        {
+          "text": "The view is that cutting working hours while keeping monthly pay unchanged would raise labor costs per hour. There are concerns that businesses with little room to absorb the cost could close or cut staff, while others might hire fewer entry-level workers in favor of experienced ones or invest in automation instead of hiring people.",
+          "comment_ids": [
+            "Ugy3b-sq1Y0I-1eBRpN4AaABAg",
+            "UgxehabiLZwsJxUW4qd4AaABAg",
+            "Ugz7mHpa8cFZg08ll5x4AaABAg",
+            "UgyRY6bc8fWTsD8dBhV4AaABAg",
+            "UgxLKDPQqN3s9cPoDeJ4AaABAg",
+            "UgzeHFn9-mcXzrKamUl4AaABAg.ANJiy-R2YXDANJsXajQv7V"
+          ]
+        },
+        {
+          "text": "The cost of keeping wages unchanged would not disappear; it could simply shift elsewhere. If companies raise prices, workers could lose purchasing power even if their pay stays the same. If the government subsidizes companies or workers, the question remains where the money would come from.",
+          "comment_ids": [
+            "UgzY-ZPQ-8BAdkdxmEl4AaABAg",
+            "UgwxkAEdGy4yCdocHnJ4AaABAg",
+            "UgycgOb1j7b4fnInXCF4AaABAg",
+            "UgyiW3mAOdKyScI0-mF4AaABAg",
+            "UgyhMHk0GvV4Fnv_HdB4AaABAg"
+          ]
+        },
+        {
+          "text": "Designing the policy around monthly salaries alone could overlook income losses for people who rely on hourly or daily pay, overtime pay, or extra-shift premiums. If workers have to make up the lost income with a side job, the extra time off will not translate into rest. Some therefore prioritize the chance to work and earn over more time off.",
+          "comment_ids": [
+            "Ugxs9FpLPaNP9HQG0954AaABAg",
+            "Ugwk4qLx6NwUXhPg4lx4AaABAg",
+            "UgwzM7U6Mm0X5fRD-sJ4AaABAg",
+            "Ugz6IUX-fcH2E6N5MNh4AaABAg",
+            "Ugwi1TdejKivFNp_pVd4AaABAg",
+            "UgwIBtldBfTrNtVF3jd4AaABAg"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "text": "Views differ on whether to adjust wages. Some favor cutting monthly pay in proportion to the reduction in hours while preserving the option to work more and earn more. Others see no reason to shorten hours if it means taking a pay cut. One proposed compromise is to give smaller salary increases in the future rather than cut pay now.",
+          "comment_ids": [
+            "UgxpNeGTxLthHB90Qxd4AaABAg",
+            "UgwRAufMhfaiN9GXSjZ4AaABAg",
+            "Ugzy1Tk6b0H0RnMho7h4AaABAg.ANJhSUWsD4rANJiMqPbdl2",
+            "UgwssDxaKcW3h6bX8ld4AaABAg"
+          ]
+        },
+        {
+          "text": "Some are in favor under certain conditions. One view is that the policy should be introduced if labor costs can be reduced or the current workload can be maintained under a performance-based system, with more flexibility to dismiss underperforming employees. Others would base wage adjustments on company performance rather than dismissal conditions, adjusting pay only if performance declines. There is also a view that even a three-day workweek would be acceptable if productivity holds up.",
+          "comment_ids": [
+            "UgzCuk38uJIS9z0CAWZ4AaABAg",
+            "UgweCUt9cXHjzZILXf94AaABAg",
+            "UgxL6iAy4ZG9ZfFZDy54AaABAg.ANJuihTO6TXANK8Kk2V_tW",
+            "UgxL6iAy4ZG9ZfFZDy54AaABAg.ANJuihTO6TXANLa-eGo6zl"
+          ]
+        },
+        {
+          "text": "Instead of a blanket rollout, some propose letting companies adopt the policy voluntarily if they can maintain output, or letting only those who want more time off opt in even if it means earning less. Others say leaving work at 5 p.m. every day is more realistic than a four-day workweek.",
+          "comment_ids": [
+            "Ugw1gtoKxV9h012wO7p4AaABAg",
+            "Ugx7yKrKzNg-ouBRYtx4AaABAg",
+            "UgwjXfaKIAHBmOyyvqd4AaABAg"
+          ]
+        },
+        {
+          "text": "Unlike those who expect employment to fall, some think reducing pay in proportion to the cut in hours could free up money to hire more workers, or that employers could bring in new staff so employees can rotate shifts.",
+          "comment_ids": [
+            "Ugzad6HTRCcsVZbkQMV4AaABAg",
+            "UgzXujuN-a3g9HGfOkt4AaABAg"
+          ]
+        },
+        {
+          "text": "Some oppose using tax revenue to make up for lost wages. Others think the policy could only be introduced with government support or propose tax breaks for companies that voluntarily adopt it while maintaining output.",
+          "comment_ids": [
+            "UgyiE3rAMzionbUEgIR4AaABAg",
+            "UgzCeZZpRlASMNCM79N4AaABAg.ANJmO8T1TT2ANLv_-T598H",
+            "Ugw1gtoKxV9h012wO7p4AaABAg"
+          ]
+        }
+      ],
+      "limitations": [
+        "The points about output, hiring, prices, and public finances are predictions and claims made by commenters. This material alone cannot establish the actual effects or causal relationships in examples from other countries.",
+        "The comments sometimes discuss four-day and 4.5-day workweeks, reductions in total working hours, rearrangements of workdays, and even abolishing the system that bundles overtime pay into a fixed salary. Not all concerns assume the same policy design.",
+        "Some brief comments only express concern about pay cuts or difficulty finding a job. Those concerns alone do not establish whether the commenters ultimately support or oppose the policy, or which alternative they prefer."
+      ],
+      "representative_comments": [
+        {
+          "comment_id": "UgxQx9A3mMsbV7Pp-uJ4AaABAg",
+          "text": "Average working hours go down when output per hour rises enough that there's no longer any need to work longer.\n\nThe point is that productivity doesn't go up just because the state, political hacks, or bureaucrats change the laws, rewrite the rules, and force people to comply.\n\nThe government itself is nothing more than a cost center that produces nothing. Is it even remotely plausible that it can raise companies' productivity by changing the law?\n\nDo these people even know what productivity is?\n\nShorter working hours are a result of higher productivity. It doesn't work the other way around. By that logic, if the government mandated a one-day workweek, would the government or the president have instantly raised productivity fivefold? Of course not.",
+          "original_text": "평균 근무시간이 줄어든다는 것은 단위 시간당 생산량이 증가하면서 근무를 더 길게 할 필요가 없어졌을 때의 결과물입니다.\n\n국가가, 정치꾼이, 공무꾼이 법을 바꾸고, 제도를 바꾸고, 강제해서 생산성이 높아지지 않는다는 얘기에요.\n\n정부야말로 아무것도 생산하지 않는 비용조직에 불과하면서 지들이 기업의 생산성을 법을 바꿔서 올린다는 게 가당키나 한 얘기입니까?\n\n지들이 생산성이 뭔지 알기는 합니까?\n\n생산성이 높아진 결과가 근무 시간의 단축인 거에요. 그 반대는 성립하지 않습니다. 그런 식이라면 국가가 주 1일제를 강제하면 국가가, 대통령이 생산성을 단박에 5배 올린건가요? 아니잖아요.",
+          "like_count": 1,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgxQx9A3mMsbV7Pp-uJ4AaABAg"
+        },
+        {
+          "comment_id": "UgyRY6bc8fWTsD8dBhV4AaABAg",
+          "text": "The population is already shrinking. If working hours go down too, can companies in a manufacturing-based country even stay afloat? And if you won't let them cut wages either, aren't they going to cut staff rather than hire more people? In a country like ours, with an economy built on manufacturing and an ultra-low birth rate, a 4.5-day workweek is an absurd policy.",
+          "original_text": "인구수도 줄어드는데 일하는 시간 마저 줄어들면 제조업 기반 국가에서 기업들이 유지가 가능한거냐? 거기다가 임금 내리지도 못하게 하면 기업들이 사람을 줄이지 더 뽑겠냐? 우리나라 같은 제조업 기반+초저출산 국가에선 4.5일제는 말도 안되는 정책임",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=UgyRY6bc8fWTsD8dBhV4AaABAg"
+        },
+        {
+          "comment_id": "Ugxgl97KGlI6R9UQxSZ4AaABAg",
+          "text": "But how do you cut working hours without cutting pay? Who makes up the difference?",
+          "original_text": "근대 급여 안줄이고 어떻게 일하는시간만줄임? 돈은 누가메꿔줌?",
+          "like_count": 0,
+          "is_reply": false,
+          "url": "https://www.youtube.com/watch?v=BAHKmi4F1L8&lc=Ugxgl97KGlI6R9UQxSZ4AaABAg"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "collected": 1217,
+    "keep": 1150,
+    "exclude": 12,
+    "review": 55,
+    "grouped": 863,
+    "other": 287,
+    "likes": 17776
+  },
+  "other_statistics": {
+    "comment_count": 287,
+    "comment_share": 0.24956521739130436,
+    "like_count": 966,
+    "like_share": 0.054342934293429346
+  }
+}
