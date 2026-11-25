@@ -1,5 +1,7 @@
 # YouTube Comment MAS
 
+**[CS473] Team 527**
+
 **One video. More perspectives.**
 
 YouTube Comment MAS is a comment-grounded multi-agent system for exploring different viewpoints in a YouTube discussion. Its web interface, **Re.View**, helps you write down your starting opinion, explore perspectives found in public comments, talk with agents representing those perspectives, and reflect on what stayed the same or changed.
@@ -27,7 +29,7 @@ The example opinions and user questions were written for this demonstration. Age
 
 The completed example is read-only. Browsing its prepared comparisons, conversations, evidence, and reflection makes **no new model requests**. Choose **Write your own view** to start a separate personal workspace.
 
-## The experience
+## How to Use
 
 ### 1. Choose a video
 
@@ -138,20 +140,6 @@ Replies distinguish between:
 The server validates source IDs and attaches the original stored comments. Agents may read each other's messages as conversational context, but they cannot cite another group's private evidence pool as their own.
 
 Conversation state includes the initial view, participants, messages, recipients, evidence, and pause state. The full transcript is stored, while model requests use recent messages and a small number of relevant earlier messages. Agents represent comment-group perspectives; they do not impersonate particular commenters or invent a human biography.
-
-### The prepared example's five perspectives
-
-These labels belong to the bundled workweek discussion. A different video can produce different groups, labels, and icons.
-
-| Agent | Perspective |
-| --- | --- |
-| `g1` | Take a Whole Weekday Off |
-| `g2` | Shorten Each Workday Instead |
-| `g3` | Fix Unpaid Overtime First |
-| `g4` | Keep Services Open |
-| `g5` | Test the Economics First |
-
-The original analysis collected 1,217 comments, retained 1,150, assigned 863 to the five agents, and preserved 287 as other opinions. These are counts for that collected snapshot, not all comments currently visible on YouTube.
 
 ## Run locally
 
@@ -303,144 +291,3 @@ New video analyses are stored under `data/analyses/<analysis_id>/`. Each analysi
 The CLI chat tool stores its sessions under `03_agents/sessions/`. Browser preferences and some local-mode user state use browser storage; deployed user records are saved through the authenticated backend.
 
 The repository excludes runtime data, personal conversations, local environment files, build outputs, deployment credentials, and debug logs. `examples/sample-analysis/` contains only a curated public snapshot and the explicitly fictional completed walkthrough. Its metadata paths are portable; raw collection files and model batch caches are not included.
-
-## Command-line tools
-
-The web application runs the pipeline for you. The CLI tools are also useful for inspecting individual stages.
-
-### Collect and analyze your own data
-
-```bash
-# The command prints the actual timestamped JSON path it creates.
-python collect_comments.py "https://www.youtube.com/watch?v=VIDEO_ID" --max 500
-
-# Replace the following paths with the files printed by the preceding steps.
-python filter_comments.py data/VIDEO_ID_TIMESTAMP.json
-python group_comments.py data/processed/VIDEO_ID_TIMESTAMP/01_filter/filtered.json
-python build_agents.py data/processed/VIDEO_ID_TIMESTAMP/02_group/groups.json
-python prepare_web.py --data data/processed/VIDEO_ID_TIMESTAMP
-```
-
-The CLI filter and grouping tools expose additional options through `--help`, including provider, model, output folder, and review thresholds. Filtering with `--offline` only exercises the conservative local rules and output format; it does not produce a full semantic analysis.
-
-The bundled sample is a prepared result for exploration. To rerun collection and all analysis stages, collect a fresh source snapshot with your own API keys.
-
-### Talk with prepared agents
-
-After installing the bundled example:
-
-```bash
-python chat_agents.py \
-  --registry data/processed/BAHKmi4F1L8_20261026-144540/03_agents/agents.json \
-  --agents g1 g5 \
-  --initial-opinion "I support shorter hours, but want to understand the trade-offs."
-```
-
-Useful interactive commands:
-
-| Command | Action |
-| --- | --- |
-| `/to g1,g5` | Choose which participants answer your next question. |
-| `/sources` | Inspect evidence for the latest agent reply. |
-| `/sources m0003` | Inspect evidence for a particular reply. |
-| `/history` | Show the saved transcript. |
-| `/debate 1` | Request a bounded round of agent-to-agent discussion. |
-| `/retry m0001` | Retry missing replies to a question. |
-| `/exit` | Leave the conversation; its state remains saved. |
-
-The tool prints the session file path. Use `--session PATH` to resume it later. Existing room participants remain fixed; create another room for a different set of agents.
-
-### Rebuild the fictional walkthrough
-
-Normal setup and browsing do not need this step. To regenerate the authored example with live agents:
-
-```bash
-python scripts/prepare_example_journey.py
-```
-
-This uses the configured model API and incurs usage. It writes `examples/four-day-week.json` and keeps its generation workspace under the ignored `.deploy/` directory. It uses the scripted fictional opinions and questions, not personal conversation history.
-
-If `setup_example.py` installed `04_web/example_journey.json`, that installed snapshot takes precedence. To use the newly generated walkthrough in that runtime folder, copy the generated file there:
-
-```bash
-cp examples/four-day-week.json \
-  data/processed/BAHKmi4F1L8_20261026-144540/04_web/example_journey.json
-```
-
-## Tests
-
-Install the bundled example before running the full Python suite, because the recorded-example tests validate against its real source analysis.
-
-```bash
-python scripts/setup_example.py
-python -m unittest discover -s tests -v
-```
-
-For the frontend build and browser tests:
-
-```bash
-cd frontend
-npm ci
-npm run build
-npm run test:e2e
-```
-
-The Playwright configuration uses the **Chrome** channel. Install Google Chrome first, or install that channel with `npx playwright install chrome`. The browser suite starts Vite and mocks the API, so it does not require a live model key or paid requests.
-
-Coverage includes comment preservation, source ownership, grouping partitions, structured response validation, cache reuse, selected recipients, bounded discussion, partial-failure retries, account isolation, durable analysis recovery, immutable example browsing, and reflection links. Automated checks validate structure and behavior; they do not measure the semantic accuracy of every generated interpretation.
-
-## Deployment
-
-The live application uses the following components:
-
-| Component | Role |
-| --- | --- |
-| **Vercel** | Hosts the built React application and forwards `/api` to Cloud Run. |
-| **Google Cloud Run** | Runs the Python API and analysis workers. |
-| **Firebase Authentication** | Creates an anonymous browser identity without a registration screen. |
-| **Cloud Firestore** | Persists user-scoped analyses, conversations, saved evidence, and reflections. |
-| **Google Secret Manager** | Supplies server-only model and YouTube API keys. |
-
-The backend verifies Firebase identity tokens before selecting a user's store. New video analyses are scoped under `users/<uid>/analyses/<analysis_id>`. The shared recorded walkthrough is served through a separate immutable scope. Anonymous browser sessions are not a cross-device account: clearing site data or using a different browser can change which workspace you can access.
-
-Cloud Run's local disk is a working cache. Analysis artifacts and completed batch checkpoints are persisted to Firestore, with job leases to limit duplicate execution. If a worker stops, an interrupted job can be resumed from saved work. Jobs are not automatically restarted with new paid requests after a server restart. In-memory conversation jobs may still need a retry after an instance is replaced.
-
-The included deployment scripts describe the existing demo installation. **Before deploying a fork, change the project, region, service, Vercel scope, Firebase configuration, API routing, and allowed origin to your own resources.** The repository's current `frontend/vercel.json` points to the existing demo API.
-
-A deployment sequence is:
-
-1. Create your Google Cloud/Firebase project, connect billing, and authenticate the Google Cloud CLI and Vercel CLI.
-2. Update the deployment constants in `scripts/deploy_backend.py`, the default Vercel scope in `scripts/deploy_frontend.py`, and `.firebaserc` for your project.
-3. Initialize Firebase using `python scripts/setup_firebase.py --project YOUR_PROJECT --name YOUR_NAME --app-name YOUR_APP`. The helper writes your local frontend Firebase configuration. Create the default Cloud Firestore database in Native mode in your Firebase/Google Cloud console, choosing the location appropriate for your project.
-4. Configure server keys in `.env` and set `ALLOWED_ORIGINS` to your frontend's exact HTTPS origin.
-5. Install the bundled example, then run `python scripts/deploy_backend.py`. It stages the public example, configures anonymous auth and server access, stores keys in Secret Manager, deploys Cloud Run, and writes the API rewrite.
-6. Supply the four `VITE_FIREBASE_*` values from `frontend/.env.example` in `frontend/.env.production.local`, then deploy with `python scripts/deploy_frontend.py --scope YOUR_VERCEL_SCOPE`. When using Vercel's Git integration, set the project root to `frontend` and add those variables to its build environment.
-7. Confirm that the frontend origin matches the backend's `ALLOWED_ORIGINS`, then test a fresh browser session, a new analysis, and a saved conversation.
-
-The Firebase web configuration identifies a public client application. Model API keys, YouTube keys, service-account credentials, and administrative access stay on the server. The Cloud Run container expects `deploy-data/`, which `scripts/prepare_deploy.py` generates from an installed public example; it is intentionally excluded from Git.
-
-## Costs, data handling, and limitations
-
-- **Paid operations:** New video analysis, live questions, agent discussion, new perspective comparisons, reflection generation, and uncached translations can call the selected model provider. YouTube collection uses your API quota. Hosting and storage can also incur costs. Prepared walkthrough browsing uses no new model calls.
-- **Data sent to the model:** Depending on the operation, the system sends comment text, parent context, video/topic text, your initial/current view, and relevant conversation excerpts. Comment authors and like counts are excluded from the filtering, grouping, and agent-reply model inputs. OpenAI requests set `store=false`.
-- **Sampling:** The newest-first collection and reply limit are not representative sampling. Displayed percentages refer to the retained analyzed comments, not all viewers or the public at large. Likes indicate engagement within the snapshot, not the truth of a statement.
-- **Interpretation:** Filtering, grouping, translation, answers, comparisons, and reflections can be mistaken. Source-ID validation confirms where evidence came from; it cannot prove that a model interpreted the evidence correctly.
-- **Scope:** Agents discuss the collected comments. They do not independently verify current laws, statistics, research, or claims made by commenters. Inspect the linked originals when assessing an answer.
-- **Language:** The prepared example uses Korean comments with English presentation. The new-video pipeline detects source languages for retrieval, while some filtering and grouping prompts are written for Korean analysis. Coverage across languages should be evaluated rather than assumed.
-- **Availability:** Deleted/private videos, disabled comments, quota limits, model access, and provider failures can prevent an analysis. An interrupted job can preserve completed work without guaranteeing that every stage finished.
-
-## Troubleshooting
-
-| Problem | What to check |
-| --- | --- |
-| Missing example files or catalog | Run `python scripts/setup_example.py` from a fresh clone. Use the same `--data PATH` for setup and the server when choosing a custom folder. |
-| Setup reports existing files differ | Preserve your current work and choose another `--data` directory. Setup intentionally does not overwrite an existing analysis. |
-| Missing model key or a provider error | Check `.env`, `LLM_PROVIDER`, model access, and account quota. The selected provider does not automatically switch to another one. |
-| New video fails before collection | Check the URL, public availability, comment settings, YouTube Data API v3 enablement, and `YOUTUBE_API_KEY`. |
-| UI changes do not appear on port 8000 | Run `npm run build` in `frontend`, or use the Vite development server. |
-| Vite cannot reach the API | Start `python web_server.py --local` on port 8000; that is the configured development proxy target. |
-| Deployed session cannot open | Check Firebase anonymous sign-in, the four frontend Firebase variables, and the backend's Firebase project. |
-| One agent fails to answer | Retry the missing response; successful answers and the original recipient selection are preserved. |
-| Analysis was interrupted | Use **Resume analysis** to reuse saved sources and validated stage caches. |
-
-For a quick introduction, open the [live example](https://commentmas.vercel.app), read a group conversation, follow an **Evidence** link, and then use **View this moment** in the reflection to see how the pieces connect.
