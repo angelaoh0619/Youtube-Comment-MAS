@@ -8,7 +8,7 @@ YouTube Comment MAS is a comment-grounded multi-agent system for exploring diffe
 
 Instead of giving you only a single summary, the system keeps disagreements, conditions, and alternatives visible. Each agent has its own source comments, and its replies link back to the comments it used.
 
-**[Try the live application](https://commentmas.vercel.app)** · [Run locally](#run-locally) · [How the agents work](#how-the-agents-work) · [Deployment](#deployment)
+**[Try the live application](https://commentmas.vercel.app)** · [Run locally](#run-locally) · [How the agents work](#how-the-agents-work) 
 
 ![The Re.View start screen, with a new-video form and a completed example](docs/images/start.png)
 
