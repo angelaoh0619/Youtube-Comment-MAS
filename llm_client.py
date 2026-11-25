@@ -48,19 +48,23 @@ class OpenRouterClient:
     key_name = "OPENROUTER_API_KEY"
     endpoint = ENDPOINT
 
-    def __init__(self, api_key: str, model: str = DEFAULT_MODEL):
+    def __init__(self, api_key: str, model: str = DEFAULT_MODEL, reasoning_effort: str = "medium"):
         if not api_key.strip():
             raise ValueError(f"{self.key_name} is missing. Set it in .env or the environment.")
         self.api_key = api_key.strip()
         self.model = model
+        if reasoning_effort not in ("low", "medium", "high"):
+            raise ValueError("Reasoning effort must be low, medium or high.")
+        upstream = model.removeprefix("openai/")
+        reasoning_model = model.startswith("openai/") and upstream.startswith(("gpt-5", "gpt-6", "o1", "o3", "o4"))
+        self.reasoning_effort = reasoning_effort if reasoning_model else None
         self.requests = 0
         self._request_lock = threading.Lock()
 
     def structured(self, system: str, payload: dict, schema: dict, name: str) -> dict:
         body = {
             "model": self.model,
-            "temperature": 0,
-            "max_tokens": 10000,
+            "max_tokens": 16000 if self.reasoning_effort else 10000,
             "messages": [
                 {"role": "system", "content": system},
                 {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
@@ -71,6 +75,10 @@ class OpenRouterClient:
             },
             "provider": {"require_parameters": True},
         }
+        if self.reasoning_effort:
+            body["reasoning"] = {"effort": self.reasoning_effort, "exclude": True}
+        else:
+            body["temperature"] = 0
         result = self._post(body)
         try:
             choice = result["choices"][0]
@@ -173,5 +181,6 @@ def create_client(settings: dict, provider: str | None = None, model: str | None
         return OpenAIClient(settings.get("OPENAI_API_KEY", ""), chosen_model,
                             settings.get("OPENAI_REASONING_EFFORT") or "medium")
     if selected == "openrouter":
-        return OpenRouterClient(settings.get("OPENROUTER_API_KEY", ""), model or settings.get("OPENROUTER_MODEL") or DEFAULT_MODEL)
+        return OpenRouterClient(settings.get("OPENROUTER_API_KEY", ""), model or settings.get("OPENROUTER_MODEL") or DEFAULT_MODEL,
+                                settings.get("OPENROUTER_REASONING_EFFORT") or "medium")
     raise ValueError("LLM_PROVIDER must be openai or openrouter.")

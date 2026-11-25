@@ -3,6 +3,7 @@
 Uses the active gcloud identity. Model keys are read locally and sent to Secret
 Manager via HTTPS, never command arguments or build uploads.
 """
+import argparse
 import json
 import subprocess
 import sys
@@ -12,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from llm_client import read_settings
+from llm_client import create_client, read_settings
 
 PROJECT = 'review-agents-20261124'
 REGION = 'asia-northeast3'
@@ -28,15 +29,27 @@ def gcloud(*args, capture=False):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--provider', choices=('openai', 'openrouter'))
+    parser.add_argument('--model', help='Model ID for the selected provider')
+    parser.add_argument('--reasoning-effort', choices=('low', 'medium', 'high'))
+    args = parser.parse_args()
     if gcloud('billing', 'projects', 'describe', PROJECT, '--format=value(billingEnabled)', capture=True) != 'True':
         raise SystemExit('Connect billing to the project before deploying the API.')
     settings = read_settings()
-    provider = settings.get('LLM_PROVIDER') or ('openai' if settings.get('OPENAI_API_KEY') else 'openrouter')
+    provider = args.provider or settings.get('DEPLOY_LLM_PROVIDER') or settings.get('LLM_PROVIDER') or ('openai' if settings.get('OPENAI_API_KEY') else 'openrouter')
+    settings['LLM_PROVIDER'] = provider
+    prefix = 'OPENAI' if provider == 'openai' else 'OPENROUTER'
+    if args.model or settings.get('DEPLOY_MODEL'):
+        settings[prefix+'_MODEL'] = args.model or settings['DEPLOY_MODEL']
+    if args.reasoning_effort or settings.get('DEPLOY_REASONING_EFFORT'):
+        settings[prefix+'_REASONING_EFFORT'] = args.reasoning_effort or settings['DEPLOY_REASONING_EFFORT']
     key_name = 'OPENAI_API_KEY' if provider == 'openai' else 'OPENROUTER_API_KEY'
     if not settings.get(key_name):
         raise SystemExit('The selected model provider key is missing.')
     if not settings.get('YOUTUBE_API_KEY'):
         raise SystemExit('YOUTUBE_API_KEY is required to deploy new-video analysis.')
+    create_client(settings)  # Validate the explicit selection without a model request.
     gcloud('services', 'enable', 'run.googleapis.com', 'cloudbuild.googleapis.com',
            'artifactregistry.googleapis.com', 'secretmanager.googleapis.com', 'firebaserules.googleapis.com')
     subprocess.run([sys.executable, str(ROOT/'scripts/configure_demo_auth.py'), '--project', PROJECT], check=True)
@@ -84,7 +97,7 @@ def main():
         call('POST', f'https://firebaserules.googleapis.com/v1/projects/{PROJECT}/releases', release)
     env = {'FIREBASE_PROJECT_ID': PROJECT, 'LLM_PROVIDER': provider,
            'ALLOWED_ORIGINS': settings.get('ALLOWED_ORIGINS') or 'https://commentmas.vercel.app'}
-    for key in ('OPENAI_MODEL', 'OPENAI_REASONING_EFFORT', 'OPENROUTER_MODEL'):
+    for key in (prefix+'_MODEL', prefix+'_REASONING_EFFORT'):
         if settings.get(key):
             env[key] = settings[key]
     # Hosting contains only public runtime configuration. Secrets use bindings.

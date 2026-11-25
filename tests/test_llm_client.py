@@ -38,6 +38,44 @@ class ClientTests(unittest.TestCase):
                     with self.assertRaises(ModelError):
                         self.call()
 
+    def test_openrouter_sol_uses_reasoning_without_unsupported_temperature(self):
+        settings = {'LLM_PROVIDER': 'openrouter', 'OPENAI_API_KEY': 'unused-openai-key',
+                    'OPENROUTER_API_KEY': 'fake-router-key', 'OPENROUTER_MODEL': 'openai/gpt-6.2-sol',
+                    'OPENROUTER_REASONING_EFFORT': 'medium'}
+        client = create_client(settings)
+        with patch('urllib.request.urlopen', return_value=response()) as send:
+            client.structured('rules', {'comments': []}, {'type': 'object'}, 'filter')
+        request = send.call_args.args[0]
+        body = json.loads(request.data)
+        self.assertEqual(request.full_url, 'https://openrouter.ai/api/v1/chat/completions')
+        self.assertEqual(request.get_header('Authorization'), 'Bearer fake-router-key')
+        self.assertEqual(body['model'], 'openai/gpt-6.2-sol')
+        self.assertEqual(body['reasoning'], {'effort': 'medium', 'exclude': True})
+        self.assertEqual(body['max_tokens'], 16000)
+        self.assertNotIn('temperature', body)
+        self.assertNotIn('unused-openai-key', request.data.decode())
+        self.assertEqual(client.reasoning_effort, 'medium')
+
+    def test_openrouter_selection_never_uses_openai_key_on_failure(self):
+        with self.assertRaisesRegex(ValueError, 'OPENROUTER_API_KEY'):
+            create_client({'LLM_PROVIDER': 'openrouter', 'OPENAI_API_KEY': 'unused-openai-key'})
+        client = create_client({'LLM_PROVIDER': 'openrouter', 'OPENAI_API_KEY': 'unused-openai-key',
+                                'OPENROUTER_API_KEY': 'fake-router-key'})
+        error = urllib.error.HTTPError(client.endpoint, 401, 'unauthorized', {}, io.BytesIO())
+        with patch('urllib.request.urlopen', side_effect=error) as send:
+            with self.assertRaises(ModelError):
+                client.structured('rules', {}, {'type': 'object'}, 'check')
+        self.assertEqual(send.call_count, 1)
+        self.assertEqual(send.call_args.args[0].get_header('Authorization'), 'Bearer fake-router-key')
+
+    def test_legacy_openrouter_model_retains_temperature_without_reasoning(self):
+        with patch('urllib.request.urlopen', return_value=response()) as send:
+            self.call()
+        body = json.loads(send.call_args.args[0].data)
+        self.assertEqual(body['temperature'], 0)
+        self.assertNotIn('reasoning', body)
+        self.assertIsNone(self.client.reasoning_effort)
+
     def test_auth_error_does_not_expose_provider_body(self):
         error = urllib.error.HTTPError("https://example.invalid", 401, "unauthorized", {},
                                        io.BytesIO(b"fake-secret-key"))

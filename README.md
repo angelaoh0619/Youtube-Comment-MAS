@@ -187,6 +187,10 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 OPENROUTER_MODEL=openai/gpt-4.1-mini
 ```
 
+To keep GPT-6.2 Sol while using OpenRouter, set `OPENROUTER_MODEL=openai/gpt-6.2-sol` and `OPENROUTER_REASONING_EFFORT=medium`. The client omits unsupported temperature settings for OpenAI reasoning models and keeps the selected provider explicit; failures do not switch to an OpenAI API key.
+
+The backend deployment helper also accepts `--provider`, `--model`, and `--reasoning-effort`. Deployment-only defaults can be saved as `DEPLOY_LLM_PROVIDER`, `DEPLOY_MODEL`, and `DEPLOY_REASONING_EFFORT` in the ignored root `.env`, independently of local model selection. Only the selected provider's key is bound to the deployed container.
+
 An explicit provider selection does not silently fall back to another provider. Environment variables take precedence over `.env`.
 
 Keep real credentials in `.env`, which is ignored by Git. Model and YouTube keys belong on the Python server, never in `VITE_*` variables or frontend source code.
